@@ -1,0 +1,95 @@
+body{
+    background-color:white;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+    justify-content: flex-start;
+    margin:auto;
+}
+
+#menu ul li a{
+    color: black;
+    display: block;
+    padding: 20px 60px;
+    text-decoration: none; 
+}
+
+#menu ul li a:hover{ 
+background-color: #42B881;
+}
+
+.item{
+    color: #fff;
+    border-color: #e4061e;
+}
+
+header{
+    background-color:black;
+    display: flex;
+    padding: 10px;
+    margin: 8px;
+}
+
+.option{
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-inline: 130px;
+    display: inline-block;
+    }
+
+    .buscar{
+        position: absolute;
+        padding: 5px;
+    }
+
+    .buscar input{
+        width: 240px;
+        height: 40px;
+        padding: 0px 20px;
+        font: 18px;
+        color:black;
+        outline: none;
+        border:1px solid silver;
+        border-radius: 30px;
+
+    }
+
+    .row{
+        flex-direction: row;
+        display: flex;
+    }
+
+h2{
+    font-size: 45px;
+text-decoration:underline;
+}
+    
+    .img{
+        margin: 1em;
+        padding: 1em;
+        height: 250px;
+        width: 250px;
+        float: left;
+        display: flex;
+        }
+
+        .important{
+            background-color: #e4061e;
+            color: white;
+            margin: 0%;
+            padding: 0;
+           text-align: center;
+        }
+
+       .go{
+        text-decoration:underline;
+       }
